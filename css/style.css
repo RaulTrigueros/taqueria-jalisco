@@ -72,10 +72,28 @@ img {
 
 header {
   width: 100%;
-  height: 150px;
+  height: 400px;
   top: 0;
   left: 0;
-  
+  background-image: url(../img/pics/footer.jpg); 
+}
+#slogan h1{
+  color: #F39C12;
+  float: center;
+  font-size: 600%;
+  text-align: center;
+  font-family: Times New Roman;
+  position: relative;
+ align-items: center;
+}
+#slogan h4{
+  color:#F5B041;
+  float: center;
+  font-size: 400%;
+  text-align: center;
+  position: relative;
+  font-family: Times New Roman;
+  align-items: center;
 }
 
 header #logo img{
@@ -86,39 +104,8 @@ header #logo img{
   border-radius: 3em;
 }
 
-/* NAVIGATION*/
-nav {
-  float: right;
-  padding: 25px 20px 0px 0px;
-}
+/* NAVIGATION ELIMINADO*/
 
-#menu-icon {
-  display: none;
-  font-size: 50px;
-}
-
-ul {
-  list-style: none;
-}
-
-nav ul li {
-  font-size: 150%;
-  display: inline-block;
-  float: left;
-  padding: 15px;
-}
-
-nav ul li a {
-  color: white;
-}
-
-.current {
-    color: #CACFD2;
-}
-
-a:hover {
-  color: #a5bdcd;
-}
 
   
 .slider img {
@@ -155,12 +142,12 @@ a:hover {
 /* SECTION 2*/
 .left-col {
   float: left;
-  margin: 0 auto;
-  width: 60%;
+  margin: 2%;
+  width: 45%;
   height: auto;
   padding: 1%;
   background-color: rgb(204, 153, 0  ); 
-  /*background-image: url('../img/pics/footer.jpg');*/
+  
 }
 
 section p{
@@ -174,18 +161,26 @@ section h2{
 }
 
 .sidebar {
+  background-size: 100%;
   float: right;
   margin: 0 auto;
-  width: 33%;
+  width: 42%;
   height: auto;
-  padding: 2%;
+  padding: 3%;
+}
+.sidebar img{
+  margin: 0 auto;
+ border-radius: 3em;
+ padding: 1%;
 }
 
 #fondo{
   background-image: url(../img/pics/fondodiv.jpg);
+ background-size: contain;
   width: 100%; 
-  height: 100vh;
+  height: 700px;
   margin: 0 auto;
+  border-radius: 3em;
 }
 
 /* ONE THIRD PADDING*/
@@ -276,40 +271,43 @@ footer {
   p {
     font-size: 130%;
   }
+section p{
+  color:#FDFEFE;
+  font-family: Arial;
+  font-size: 120%;
+}
+
+  section h2{
+  color:#fff;
+  font-size: 200%;
+  font-family: 'Times New Roman';
+}
   h3 {
     font-size: 150%;
   }
   header {
-    height: 80px;
+    height: 300px;
     position: relative;
   }
   header #logo {
-    margin: 15px 0 20px -25px;
-  }
+    margin: 10px 0 15px -20px;
 
-  #menu-icon {
-    display: inline-block;
   }
-
-  nav:hover ul {
-    display: block;
-  }
-
-  nav ul, nav:active ul {
-    display: none;
-    z-index: 1000;
-    position: absolute;
-    padding: 20px;
-    background: #f5f5f5;
-    border: 1px solid #a5bdcd;
-    right: 20px;
-    width: 30%;
-    opacity: .95;
-  }
-  nav li {
-    text-align: center;
-    width: 100%;
-  }
+  #slogan h1{
+  color: #F39C12;
+  float: center;
+  font-size: 150%;
+  text-align: center;
+  font-family: Times New Roman;
+  position: relative;
+}
+#slogan h4{
+  color:#F5B041;
+  float: center;
+  font-size: 100%;
+  text-align: center;
+  position: relative;
+}
 
   .one-third {
     float: left;
@@ -328,12 +326,18 @@ footer {
   }
 
   .left-col {
+    margin: 0 auto;
     width: 100%;
-    padding: 0;
+    padding: 0; 
+    position: relative;
   }
 
   .sidebar {
     width: 100%;
+  
+  }
+  .fondo{
+    position: relative;
   }
 
   .one-third-padding {
@@ -363,4 +367,112 @@ footer {
     padding: 1%;
   }
 
+
 }
+   /* Estilos de barra de secciones */
+.topnav {
+  margin: 2%;
+  overflow: hidden;
+  background-color: #333;
+  float: right;
+  max-width: 100%;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: red;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+/* hasta aquí los estilos de barra de secciones */

@@ -15,54 +15,42 @@
 
   <!-- MAIN WRAPPER -->
   <div id="wrapper">
+     <header>
 
-    <!-- BANNER WRAPPER -->
-    <div id="banner-wrapper">
-      <header>
         <div id="header-inner">
           <a href="#" id="logo">
             <img src="img/pics/logomain.PNG" alt="logo de taquer&iacuteaJaliscoTacacity">
           </a>
 
-          <nav>
-            <a href="#" id="menu-icon">
-              <i class="fa fa-bars"></i>
-            </a>
-            <ul>
-              <li>
-                <a href="index.html" class="current">
-                  Inicio
-                </a>
-              </li>
-              <li>
-                <a href="#menus">
-                  Men&uacutes
-                </a>
-              </li>
-               <li>
-                <a href="#sucursales">
-                  Sucursales
-                </a>
-              </li>
-              <li>
-                <a href="#servicios">
-                  Servicios
-                </a>
-              </li>
-              <li>
-                <a href="#a cerca de ">
-                  Acerca de
-                </a>
-              </li>
-              <li>
-                <a href="#contactos">
-                  Contacto
-                </a>
-              </li>
-            </ul>
-          </nav>
+            <div class="topnav" id="myTopnav">
+              <a href="#home" class="active">Inicio</a>
+              <div class="dropdown">
+                <button class="dropbtn">Men&uacutes 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">Platillos</a>
+                  <a href="#">Bebidas</a>
+                  <a href="#">Pizzas</a>
+                </div>
+              </div> 
+              <a href="#sucursales">Sucursales</a>
+               <a href="#servicios">Servicios</a>
+              <a href="#contactos">Contactos</a>
+              <a href="#acerca de">Acerca de</a>
+              <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+             <div class="clearfix-padding"></div>
+            <div id="slogan">
+              <h1>Taquer&iacutea Jalisco Tacacity</h1>
+              <h4>"Más que un buen taco"</h4>    
+            </div>
         </div>
       </header>
+
+    <!-- BANNER WRAPPER -->
+    <div id="banner-wrapper">
+     
       <!-- SLIDER -->
       <div id="slide-wrap">
         <section class="slider">
@@ -135,13 +123,12 @@
             <li>
               <a href="#">Servicios</a>
             </li>
+             <li>
+              <a href="#">Contactos</a>
+            </li>
             <li>
               <a href="#">Acerca de</a>
             </li>
-            <li>
-              <a href="#">Contactos</a>
-            </li>
-             
           </ul>
         </div>
         <div class="icon-text-text">
@@ -190,6 +177,16 @@
         mode: 'fade',
       });
     });
+
+
+  function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
   </script>
 </body>
 </html>
