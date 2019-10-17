@@ -276,11 +276,12 @@ background-repeat: no-repeat;
 }
 
 
-footer {
+.first-footer {
   background:  #424949;
   width: 100%;
   overflow: auto;
    background-image: url(../img/pics/footer.jpg);
+   font-family: 'Times New Roman';
 }
 .icon-text {
   width: 100%;
@@ -334,16 +335,16 @@ footer {
 }
 
 .second-footer {
-  border-top: 1px solid #aadcd2;
   text-align: center;
   margin: 0;
-  background-image: url(../img/pics/footer.jpg);
+  background-color:#707B7C ;
 }
 .second-footer p, .second-footer a{
   text-align: center;
   color:  #fff;
-  font-size: 140%;
-  line-height: 155%;
+  font-size: 120%;
+  line-height: 50%;
+  font-family: 'Times New Roman';
 }
 /*Vista en movil*/
 @media screen and (max-width: 768px) {
