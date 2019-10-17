@@ -183,6 +183,36 @@ section h2{
   border-radius: 3em;
 }
 
+#fondoPaisnal{
+  background-image: url(../img/slider/fondo11.jpg);
+background-size: auto;
+background-repeat: no-repeat;
+  width: 100%; 
+  height: 1000px;
+  margin: 0 auto;
+  border-radius: 1em;
+}
+
+#fondoTacachicho{
+  background-image: url(../img/slider/fondo3.1.jpg);
+background-size: auto;
+background-repeat: no-repeat;
+  width: 100%; 
+  height: 1000px;
+  margin: 0 auto;
+  border-radius: 1em;
+}
+
+#fondoAguilares{
+  background-image: url(../img/slider/guacamole-comida-mexicana.jpg);
+background-size: auto;
+background-repeat: no-repeat;
+  width: 100%; 
+  height: 1000px;
+  margin: 0 auto;
+  border-radius: 1em;
+}
+
 /* ONE THIRD PADDING*/
 .one-third-padding {
   width: 29%;
@@ -190,6 +220,7 @@ section h2{
   margin: 2% 2%;
 
 }
+
 
 .clearfix-padding {
   clear: both;
