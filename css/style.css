@@ -147,12 +147,60 @@ header #logo img{
   height: auto;
   padding: 1%;
   background-color: rgb(204, 153, 0  ); 
-  
+  font-family: 'Times New Roman';
 }
+
+#mision {
+  float: left;
+  margin: 2%;
+  width: 45%;
+  height: auto;
+  padding: 1%;
+  background-color: #54524F; 
+  border-radius: 3em;
+  font-family: 'Times New Roman';
+}
+#vision {
+  float: left;
+  margin: 2%;
+  width: 45%;
+  height: auto;
+  padding: 1%;
+  background-color: #54524F; 
+  border-radius: 3em;
+  font-family: 'Times New Roman';
+}
+#historia {
+  float: left;
+  margin: 2%;
+  width: 45%;
+  height: auto;
+  padding: 1%;
+ background-color: #54524F;  
+  border-radius: 3em;
+  font-family: 'Times New Roman';
+}
+#valores {
+  float: left;
+  margin: 2%;
+  width: 45%;
+  height: auto;
+  padding: 1%;
+  background-color: #54524F; 
+  border-radius: 3em;
+  font-family: 'Times New Roman';
+}
+#valores h2{
+  color:white;
+}
+#valores h3{
+  color:yellow;
+}
+
 
 section p{
   color:#FDFEFE;
-  font-family: Arial;
+  font-family: 'Times New Roman';
 }
 section h2{
   color:#fff;
