@@ -170,6 +170,17 @@ header #logo img{
   border-radius: 3em;
   font-family: 'Times New Roman';
 }
+
+#pais {
+  float: left;
+  margin: 2%;
+  width: 45%;
+  height: auto;
+  padding: 1%;
+  background-color: rgb(204, 153, 0  );
+  border-radius: 3em;
+  font-family: 'Times New Roman';
+}
 #historia {
   float: left;
   margin: 2%;
@@ -222,6 +233,16 @@ section h2{
  padding: 1%;
 }
 
+.derecha {
+  background-size: 100%;
+
+  float: right;
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+  padding: 3%;
+}
+
 #fondo{
   background-image: url(../img/pics/fondodiv.jpg);
  background-size: contain;
@@ -232,7 +253,7 @@ section h2{
 }
 
 #fondoPaisnal{
-  background-image: url(../img/slider/fondo11.jpg);
+  background-image: url(../img/pics/local-tacachico-fondo.jpg);
 background-size: auto;
 background-repeat: no-repeat;
   width: 100%;
@@ -242,7 +263,7 @@ background-repeat: no-repeat;
 }
 
 #fondoTacachicho{
-  background-image: url(../img/slider/fondo3.1.jpg);
+  background-image: url(../img/pics/local-tacachico-fondo.jpg);
 background-size: auto;
 background-repeat: no-repeat;
   width: 100%;
@@ -252,7 +273,7 @@ background-repeat: no-repeat;
 }
 
 #fondoAguilares{
-  background-image: url(../img/slider/guacamole-comida-mexicana.jpg);
+  background-image: url(../img/pics/local-tacachico-fondo.jpg);
 background-size: auto;
 background-repeat: no-repeat;
   width: 100%;
