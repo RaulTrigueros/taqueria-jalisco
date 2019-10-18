@@ -185,6 +185,7 @@ header #logo img{
   height: auto;
   padding: 1%;
   background-color: rgb(204, 153, 0  );
+  background-size: 100%;
   border-radius: 3em;
   font-family: 'Times New Roman';
 }
@@ -260,7 +261,7 @@ section h2{
 }
 
 #fondoPaisnal{
-  background-image: url(../img/pics/local-tacachico-fondo.jpg);
+background-image: url(../img/pics/local-tacachico-fondo.jpg);
 background-size: auto;
 background-repeat: no-repeat;
   width: 100%;
@@ -439,7 +440,12 @@ section p{
     padding: 0;
     position: relative;
   }
-
+  #pais{
+    font-size: 80%;
+    
+  }
+  
+  
   .sidebar {
     width: 100%;
 
