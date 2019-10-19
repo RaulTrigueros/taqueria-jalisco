@@ -660,3 +660,12 @@ div h2{
   font-family: Times New Roman;
 }
 /* Fin estilos de menus */
+/* Inicio estilos de boton enviar comentario */
+.btn{padding:.25rem .5rem;font-size:.875rem;line-height:1.5;border-radius:.2rem}
+.btn-primary{color:#fff;background-color:#007bff;border-color:#007bff}
+.btn-primary:hover{color:#fff;background-color:#FF0000;border-color:#0062cc}
+.btn-primary.focus,.btn-primary:focus{box-shadow:0 0 0 .2rem rgba(0,123,255,.5)}
+.btn-primary.disabled,.btn-primary:disabled{background-color:#007bff;border-color:#007bff}
+.btn-primary:not([disabled]):not(.disabled).active,.btn-primary:not([disabled]):not(.disabled):active,.show>
+.btn-primary.dropdown-toggle{color:#fff;background-color:#0062cc;border-color:#005cbf;box-shadow:0 0 0 .2rem rgba(0,123,255,.5)}
+/* Fin estilos de boton enviar comentario */
