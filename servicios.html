@@ -283,39 +283,14 @@
                   <i class="fa fa-instagram"></i>
                 </a>
               </li>
-              <li>
-                <a href="#" TARGET="_blank">
+
+  			       <li>
+                <a href="https://www.youtube.com/channel/UCff5ezrK_zeLHoiDiXe8eGg" TARGET="_blank">
                   <i class="fa fa-youtube"></i>
                 </a>
               </li>
             </ul>
           </div>
-        </div>
-        <div class="icon-text-text">
-          <ul class="social">
-            <li>
-              <a href="https://www.facebook.com/Taqueriajaliscotacachico" TARGET="_blank">
-                <i class="fa fa-facebook"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/TaqueraJalisco1" TARGET="_blank">
-                <i class="fa fa-twitter"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://instagram.com/taqueriajaliscotacachico" TARGET="_blank">
-                <i class="fa fa-instagram"></i>
-              </a>
-            </li>
-
-			 <li>
-              <a href="https://www.youtube.com/channel/UCff5ezrK_zeLHoiDiXe8eGg" TARGET="_blank">
-            <li>
-                <i class="fa fa-youtube"></i>
-              </a>
-            </li>
-          </ul>
         </div>
       </div>
       <div class = "fb-comments" data-href = "https://taqueriajalisco-tacacity.herokuapp.com" data-width = "" data-numposts = "5" data-order-by="reverse_time"> </div>
@@ -338,40 +313,34 @@
    <!-- FIN de botón Like en facebook -->
     </footer>
 
-  <!-- SCIPTS -->
-<script src="plugin-frameworks/jquery-3.2.1.min.js"></script>
-<script src="plugin-frameworks/bootstrap.min.js"></script>
-<script src="plugin-frameworks/swiper.js"></script>
-<script src="common/scripts.js"></script>
-
-<!-- SCRIPTS PARA ANIMACION DE IMAGES-->
-  <script>
-    $(document).ready(function(){
-      $('.slider1').bxSlider({
-        mode: 'fade',
-        auto: true,
-      autoControls: true,
+    <!-- SCRIPTS PARA ANIMACION DE IMAGES-->
+    <script>
+      $(document).ready(function(){
+        $('.slider1').bxSlider({
+          mode: 'fade',
+          auto: true,
+        autoControls: true,
+        });
+        $('.slider2').bxSlider({
+          mode: 'fade',
+        });
+        $('.slider3').bxSlider({
+          mode: 'fade',
+        });
+         $('.slider3').bxSlider({
+          mode: 'fade',
+        });
       });
-      $('.slider2').bxSlider({
-        mode: 'fade',
-      });
-      $('.slider3').bxSlider({
-        mode: 'fade',
-      });
-       $('.slider3').bxSlider({
-        mode: 'fade',
-      });
-    });
 
 
-  function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
+    function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
   }
-}
-  </script>
-</body>
-</html>
+    </script>
+  </body>
+  </html>
