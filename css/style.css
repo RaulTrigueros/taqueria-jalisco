@@ -90,7 +90,7 @@ header {
   font-family: Times New Roman;
   position: relative;
  align-items: center;
- 
+
 }
 #slogan h4{
   color:#F5B041;
@@ -100,7 +100,7 @@ header {
   position: relative;
   font-family: Times New Roman;
   align-items: center;
-  
+
 }
 
 header #logo img{
@@ -309,7 +309,7 @@ background-repeat: no-repeat;
   background:  #424949;
   width: 100%;
   overflow: auto;
-  
+
    font-family: 'Times New Roman';
 }
 .icon-text {
@@ -442,11 +442,11 @@ section p{
   }
   #pais{
     font-size: 80%;
-    
+
   }
-  
-  
-  
+
+
+
   .sidebar {
     width: 100%;
 
@@ -660,3 +660,183 @@ div h2{
   font-family: Times New Roman;
 }
 /* Fin estilos de menus */
+
+/* contacto */
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: auto;
+}
+
+.contenedor-ubicaciones{
+  width: 40%;
+  height: auto;
+  position: relative;
+  float: left;
+  background-color: white;
+  border-radius: 5px;
+  margin-right: 5%;
+}
+.contenedor-formulario{
+  width: 55%;
+  height: 100px;
+  position: relative;
+  float: left;
+  background-color: yellow;
+  border-radius: 5px;
+  background-image: url();
+}
+.wrapper-form{
+  width: 670px;
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+.ubicacion{
+  width: 90%;
+  height: auto;
+  position: relative;
+  float: left;
+  margin: 5%;
+}
+.maps{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.maps iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.contacto{
+  width: 100%;
+  height: 40%;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: : 2%;
+}
+.contacto > p{
+  font-size: 14px;
+}
+.contacto > h5{
+  text-align: center;
+  padding: 2%;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(245, 176, 65);
+}
+.formulario{
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+.contacto-bg{
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  padding: 64px 15px 64px 15px;
+}
+.contacto-bg::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(54,84,99,0.7);
+    background-image: url(img/contacto-taqueria.jpg);
+}
+.contacto-bg-1 {
+  font-size: 20px;
+  color: #fff;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 7px;
+}
+.contacto-bg-2 {
+  font-size: 15px;
+  color: #fff;
+  line-height: 1.5;
+  text-align: center;
+}
+.formulario-contacto {
+  width: 90%;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+  box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+  position: relative;
+}
+.formulario__titulo {
+  text-align: center;
+  margin-top: 0;
+  color: rgba(0,0,0,0.7);
+}
+.formulario__input, .formulario__label, .formulario__submit {
+  display: block;
+  width: 100%;
+  font-size: 1.3em;
+}
+.formulario__input {
+  margin-bottom: 40px;
+  height: 40px;
+  padding: 2%;
+  width: 95%;
+  background: rgba(154, 154, 154, 0.1);
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.3);
+  border-image: initial;
+}
+.formulario__input:focus {
+  outline: 1px solid rgba(0,0,0,0.7);
+}
+.formulario__input:focus + .formulario__label{
+  margin-top: -135px;
+}
+.formulario__label {
+  padding-left: 15px;
+  position: absolute;
+  margin-top: -85px;
+  z-index: -20;
+  color: rgba(0,0,0,0.5);
+  transition: all 0.2s;
+}
+.formulario__submit {
+  background: rgba(0,0,0,0.7);
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+}
+.fijar {
+  margin-top: -135px;
+}
+
+/* fin contacto */
