@@ -22,6 +22,9 @@
   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
+
+  <!-- Editor de texto enriquecido -->
+<script src="js/ckeditor/ckeditor.js"></script>
 </head>
 <body>
 
@@ -123,7 +126,7 @@
                 				</span>
               			</div>
 
-                    <form action="" class="formulario-contacto">
+                    <form action="mailto:taqueriajaliscotacacity@gmail.com" class="formulario-contacto">
                       <h5 class="formulario__titulo">Completa el siguiente formulario</h5><br>
                       <input type="text" placeholder="Ingrese el Nombre completo" title="Ingrese el Nombre completo" class="formulario__input" required>
                       <label for="" class="formulario__label">Nombres</label>
@@ -135,8 +138,23 @@
                       <label for="" class="formulario__label">Mensaje</label>
                       <input type="submit" class="formulario__submit">
                     </form>
+
 	            </div>
+  
             </div>
+            <form action="mailto:taqueriajaliscotacacity@gmail.com" method="post" accept-charset="utf-8">
+            <br>
+     <h2>Env&iacuteanos tus sugerencias</h2> 
+    <br>
+    <textarea name="editor1"></textarea>
+                  <script>
+                          CKEDITOR.replace( 'editor1' );
+                  </script><br>
+      <button type="submit" class="btn btn-primary">Enviar sugerencia</button>
+  </div>
+
+
+  </form>
           </div>
       </div>
   <!-- FIN CONTACTO -->
