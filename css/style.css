@@ -504,12 +504,12 @@ section p{
 
 
 .wrapper .contenedor-ubicaciones{
-  width: 80%;
+  width: 85%;
   height: auto;
   background-color: white;
   border-radius: 5px;
   margin-right: 3%;
-  margin-left: 10%;
+  margin-left: 6%;
  
 }
 .wrapper .contenedor-formulario{
@@ -519,17 +519,18 @@ section p{
   float: left;
   border-radius: 5px;
   background-image: url();
-  margin-right: 18%;
+  margin-right: 15%;
+ 
 }
 .wrapper .wrapper-form{
-  width: 430px;
+  width: 330px;
   background: #fff;
   border-radius: 5px;
   overflow: hidden;
    margin-left: 5%;
  
 }
-.wrapper-form .formulario{
+.wrapper .formulario{
   width: 100%;
   background: #fff;
   border-radius: 5px;
