@@ -519,18 +519,18 @@ section p{
   float: left;
   border-radius: 5px;
   background-image: url();
-  margin-right: 15%;
+  margin-right: 18%;
 }
 .wrapper .wrapper-form{
-  width: 400px;
+  width: 430px;
   background: #fff;
   border-radius: 5px;
   overflow: hidden;
-   margin-left: 10%;
+   margin-left: 5%;
  
 }
-.formulario{
-  width: 80%;
+.wrapper-form .formulario{
+  width: 100%;
   background: #fff;
   border-radius: 5px;
   overflow: hidden;
