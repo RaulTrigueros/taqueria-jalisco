@@ -484,6 +484,15 @@ section p{
   }
 
 
+  .second-footer p, .second-footer a{
+  text-align: center;
+  color:  #fff;
+  font-size: 80%;
+  line-height: 50%;
+  font-family: 'Times New Roman';
+}
+
+
 }
    /* Estilos de barra de secciones */
 .topnav {
