@@ -403,6 +403,11 @@ section p{
     margin: 10px 0 15px -20px;
 
   }
+  #wrapper {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
   #slogan h1{
   color: #F39C12;
   float: center;
