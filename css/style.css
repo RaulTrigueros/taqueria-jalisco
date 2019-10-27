@@ -178,6 +178,26 @@ header #logo img{
   border-radius: 3em;
   font-family: 'Times New Roman';
 }
+#objetivos {
+  float: left;
+  margin: 2%;
+  width: 45%;
+  height: auto;
+  padding: 1%;
+  background-color: #54524F;
+  border-radius: 3em;
+  font-family: 'Times New Roman';
+}
+#lista-objetivos {
+  float: center;
+  margin: 2%;
+  width: auto;
+  height: auto;
+  color: #FFFFFF;
+  font-family: 'Times New Roman';
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
 
 #pais {
   float: left;
